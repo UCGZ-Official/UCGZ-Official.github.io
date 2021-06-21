@@ -45,9 +45,12 @@ sass:
   sass_dir: _sass
   style: compressed
 
+remote_theme: chesterhow/tale
+
 # Gems
 plugins:
   - jekyll-paginate
+  - jekyll-remote-theme
 
 # Permalinks
 permalink: /:year-:month-:day/:title
